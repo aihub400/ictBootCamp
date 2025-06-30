@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: #2Ec4B6;
+}
+
+nav ul{
+list-style-type: none;
+display: flex;
+align-items: center;
+}
+
+nav ul li{
+    display:inline-block ;
+}
+
+nav ul li a{
+    display:inline-block ;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background: #82b3ae;
+}
+
+/*  */
+ 
+.container{
+    padding: 2rem;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.hero-img img{
+    width:100%;
+}
+
+.intro p{
+    padding: 1rem 0 ;
+}
+.intro h1 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.intro button{
+    background: #058074;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+}
+.intro button a{
+    color: #fff;
+    text-decoration: none;
+}
+     
+.title h1{
+    text-align: center;
+    color: white;
+    background-color: rgb(194, 82, 82);
+    padding: 3px;
+}
+
+.blog-img img{
+    width:100%;
+    height: 400px;
+    object-fit: cover;
+}
+.container{
+    background-color: rgb(165, 165, 165);
+}
+img {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: red;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+
+/* footer */
+   
+.footer-main{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.footer-link a{
+    display: block;
+    padding:1rem 0;
+}
+.about-img img{
+    width:100%;
+    height: 200px;
+    object-fit: cover;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 60px;
+}
+.contact-main{
+    border: #2Ec4B6;
+    padding:10px;
+    margin:10px;
+}
+
+
+    
+
+
+
+
